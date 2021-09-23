@@ -1,5 +1,6 @@
 package com.redskill.to_docompose.navigation
 
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.navigation.NavHostController
@@ -9,6 +10,7 @@ import com.redskill.to_docompose.navigation.destination.taskComposable
 import com.redskill.to_docompose.ui.viewmodel.SharedViewModel
 import com.redskill.to_docompose.utils.Constants.LIST_SCREEN
 
+@ExperimentalMaterialApi
 @Composable
 fun SetupNavigation(
     navHostController: NavHostController,
